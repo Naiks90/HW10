@@ -1,0 +1,28 @@
+@import url(Logo/logo.css);
+@import url(common/common.css);
+@import url(nav/nav-list/nav-list.css);
+@import url(nav/nav-icon/nav-icon.css);
+
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.welcome {
+    background-image: url(../img/Layer\ 15-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.gradient {
+    background: linear-gradient( 0deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    height: 100%;
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .welcome {
+        background-image: url(../img/Layer\ 15@2x-min.jpg);
+    }
+}
