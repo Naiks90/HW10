@@ -1,0 +1,11 @@
+.btn-more {
+    width: 160px;
+    height: 40px;
+    background-color: rgba(256, 256, 256, 0);
+    border: #fff solid 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+}

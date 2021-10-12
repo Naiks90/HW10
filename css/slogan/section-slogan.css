@@ -1,0 +1,33 @@
+.section-slogan {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-slogan_span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 18px;
+    color: #333;
+}
+
+.section-slogan_title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.section-slogan_title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 40px;
+}

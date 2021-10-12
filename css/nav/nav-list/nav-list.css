@@ -4,6 +4,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     display: flex;
+    margin-right: 55px;
 }
 
 .nav-list__iteam:not(:nth-last-of-type(1)) {
