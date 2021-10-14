@@ -1,0 +1,10 @@
+.input-email {
+    border: none;
+    width: 228px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #cccccc;
+    font-style: italic;
+}

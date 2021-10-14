@@ -1,0 +1,40 @@
+.btn-icon {
+    width: 55px;
+    height: 56px;
+    border: none;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.btn-icon:hover {
+    background-color: #f38181;
+}
+
+.btn-icon_svg {
+    fill: #f38181;
+    -webkit-transition-property: fill;
+    -o-transition-property: fill;
+    transition-property: fill;
+    -webkit-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.btn-icon:hover .btn-icon_svg {
+    fill: #fff;
+}

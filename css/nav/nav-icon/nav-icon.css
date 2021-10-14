@@ -2,14 +2,24 @@
     list-style: none;
     padding: 0px;
     margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
 }
 
 .nav-icon__svg {
     fill: #fff;
+    -webkit-transition-property: fill;
+    -o-transition-property: fill;
     transition-property: fill;
+    -webkit-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
     transition-duration: 200ms;
+    -webkit-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
     transition-timing-function: linear;
 }
 

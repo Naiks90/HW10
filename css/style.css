@@ -7,6 +7,12 @@
 @import url(slogan/slogan.css);
 @import url(button/btn-more.css);
 @import url(slogan/section-slogan.css);
+@import url(services-list/services-list.css);
+@import url(button/btn-icon.css);
+@import url(team-list/team-list.css);
+@import url(button/btn-sub.css);
+@import url(input/input.css);
+@import url(footer/footer.css);
 
 /* font-family: 'Kaushan Script', cursive;
 font-family: 'Montserrat', sans-serif;

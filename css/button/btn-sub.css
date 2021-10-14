@@ -1,0 +1,11 @@
+.btn-sub {
+    padding: 0px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #95e1d3;
+    width: 151px;
+    height: 40px;
+    text-transform: uppercase;
+}
