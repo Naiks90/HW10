@@ -18,11 +18,15 @@
     cursor: pointer;
 }
 
+.btn-icon:not(:last-of-type) {
+    margin-right: 1px;
+}
+
 .btn-icon:hover {
     background-color: #f38181;
 }
 
-.btn-icon_svg {
+.btn-icon__svg {
     fill: #f38181;
     -webkit-transition-property: fill;
     -o-transition-property: fill;
@@ -35,6 +39,6 @@
     transition-timing-function: linear;
 }
 
-.btn-icon:hover .btn-icon_svg {
+.btn-icon:hover .btn-icon__svg {
     fill: #fff;
 }

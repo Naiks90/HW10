@@ -9,7 +9,7 @@
     /* margin-right: 55px; */
 }
 
-.nav-list__iteam:not(:nth-last-of-type(1)) {
+.nav-list__item:not(:nth-last-of-type(1)) {
     margin-right: 55px;
 }
 

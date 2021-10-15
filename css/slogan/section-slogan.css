@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.section-slogan_span {
+.section-slogan__span {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
     font-weight: 400;
@@ -20,7 +20,7 @@
     color: #333;
 }
 
-.section-slogan_title {
+.section-slogan__title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
@@ -28,7 +28,7 @@
     color: #333333;
 }
 
-.section-slogan_title::after {
+.section-slogan__title::after {
     content: "";
     display: block;
     width: 60px;

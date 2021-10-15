@@ -1,4 +1,4 @@
-.nav-icon {
+.nav-actions-list {
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -10,7 +10,7 @@
     align-items: flex-end;
 }
 
-.nav-icon__svg {
+.nav-actions-list__svg {
     fill: #fff;
     -webkit-transition-property: fill;
     -o-transition-property: fill;
@@ -23,10 +23,10 @@
     transition-timing-function: linear;
 }
 
-.nav-icon__svg:hover {
+.nav-actions-list__svg:hover {
     fill: #fce38a;
 }
 
-.nav-icon__iteam:not(:nth-last-of-type(1)) {
+.nav-actions-list__item:not(:nth-last-of-type(1)) {
     margin-right: 40px;
 }
